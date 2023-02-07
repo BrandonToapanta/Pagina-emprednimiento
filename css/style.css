@@ -1,0 +1,181 @@
+/* body */
+body {
+    background-color: var(--bs-dark);
+}
+
+/* barra de navegación */
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-item {
+    margin-left: 2%;
+}
+
+.neon {
+    text-shadow: 0 0 5px #f2f2f2, 0 0 25px #ffee02;
+}
+
+/* informacion de servicios */
+.main__article--ofrecemos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.main__section--ofrecemos {
+    width: 45%;
+    margin: 30px;
+    color: #fdfdfd;
+}
+
+.main__h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main__span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+@media (max-width: 1250px) {
+    .main__section--ofrecemos {
+        width: 80%;
+    }
+}
+
+/* parte prodcutos servicios, descripcion, etc */
+
+.main__article--productos {
+    max-width: 95%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.main__section--productos {
+    width: 300px;
+    border-radius: 30px;
+    background: linear-gradient(2deg, rgb(74, 4, 194), rgba(109, 92, 190, 0.608));
+    box-shadow: -9px 9px 3px #464972,
+        9px -9px 3px #5b6685;
+    padding: 30px;
+    color: #f2f2f2;
+    margin: 30px;
+    display: grid;
+}
+
+.main__h2--prouuctos {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.main__ul--productos {
+    padding: 0;
+}
+
+.main__li--productos {
+    list-style-type: none;
+}
+
+.posicion {
+    align-content: end;
+    background-color: #fdfdfd;
+    color: #000;
+}
+
+/* Estilos  quienes_somos.html*/
+
+.main_quienesSomos {
+    font-size: 25px;
+    color: aliceblue;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 5px 1.5em 5px 1.5em;
+}
+
+#form_qs {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form_qs h2 {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#form_qs p {
+    text-align: center;
+    font-size: 40px;
+}
+
+#form_qs label {
+    font-size: 40px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: orange;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
+
+
+/* Footer Estilos */
+footer {
+    padding: 5% 15%;
+    margin-top: 5%;
+    color: white;
+}
+
+#redes-sociales * {
+    margin: 1% 0 1%;
+}
+
+#redes-sociales i,
+span {
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    transition: 0.1s ease;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+#redes-sociales span:hover,
+i:hover {
+    font-weight: 600;
+}
+
+#formulario-contacto * {
+    background: var(--bs-dark) !important;
+    color: white;
+    margin-top: 2%;
+}
+
+footer .text-center {
+    margin-top: 3%;
+}
+
+/* creacion de funciones, variables, etc */
