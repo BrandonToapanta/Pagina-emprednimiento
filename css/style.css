@@ -91,6 +91,16 @@ body {
 
 /* Estilos  quienes_somos.html*/
 
+.body_quienesSomos{
+    background-color: #000;
+}
+
+.img_quienesSomos {
+    align-items: center;
+    margin-top: 3%;
+}
+
+
 .main_quienesSomos {
     font-size: 25px;
     color: aliceblue;
@@ -116,7 +126,7 @@ body {
 }
 
 #form_qs label {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 input[type="radio"] {
@@ -140,6 +150,7 @@ label:hover~label {
 input[type="radio"]:checked~label {
     color: orange;
 }
+
 
 
 /* Footer Estilos */
