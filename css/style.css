@@ -58,6 +58,7 @@ p a {
     text-decoration: none;
     text-decoration: underline;
 }
+
 p a:hover {
     color: #CBCBCB;
 }
@@ -67,28 +68,37 @@ p a:hover {
     color: white;
     transition: 0.2s ease;
 }
+
 #contactanos_atajo a:hover {
     color: var(--bs-blue);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #contactanos_atajo a:hover {
     color: var(--bs-blue);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #flecha_redireccionar {
     position: relative;
 }
+
 #flecha_redireccionar .text-center {
     position: absolute;
     right: 49%;
     animation: animacion-flecha 0.7s infinite;
 }
+
 @keyframes animacion-flecha {
     0% {
         transform: translateY(-7px);
         opacity: 0;
     }
-    50% { opacity: 1; }
+
+    50% {
+        opacity: 1;
+    }
+
     100% {
         transform: translateY(7px);
         opacity: 0;
@@ -105,8 +115,9 @@ p a:hover {
 #carouselProyectos {
     max-width: 400px;
 }
+
 .carousel-item img {
-    border: solid 2px ;
+    border: solid 2px;
 }
 
 /* parte prodcutos servicios, descripcion, etc */
@@ -151,9 +162,9 @@ p a:hover {
 
 /* Estilos  quienes_somos.html*/
 
-.body_quienesSomos{
+/* .body_quienesSomos{
     background-color: #000;
-}
+} */
 
 .img_quienesSomos {
     align-items: center;
