@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESEB</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <!-- Bootstrap Dependencias -->
+    <!-- Bootstrap Dependenci -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -32,7 +33,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" style="color:white">
-                <img src="img/icon.jpg" alt="icon">
+                RESEB
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -75,41 +76,56 @@
                     atractivo y funcional. Nos servicios incluyes base de datos, servidor de 100 GB e implementación de
                     SEO. Si estas interesado solo contáctanos mediante los formularios o <a href=""
                         class="main__a--link">WhatsApp</a> .</p>
+
+                <h5 class="text-center" id="contactanos_atajo">
+                    <a href="#footer">Contáctanos</a>
+                </h5>
+                <div id="flecha_redireccionar">
+                    <div class="text-center">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
             </section>
             <section class="main__section--ofrecemos img__prototipos">
-                <div class="carousel slide" data-bs-ride="carousel">
+                <h5 class="text-center" style="margin-bottom: 1.5rem;">Una pizca de nuestro trabajo ✨</h5>
+                <div id="carouselProyectos" class="carousel slide mx-auto" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <!-- <img src="/img/vista_productos/vista_producto.png" class="d-block w-100"
-                                alt="Visualizacion de producto"> --> #1
+                            <img src="/img/vista_productos/vista_producto.png" class="d-block w-100"
+                                alt="Visualizacion de producto">
                         </div>
                         <div class="carousel-item">
-                            <!-- <img src="/img/vista_productos/vista_producto2.png" class="d-block w-100"
-                                alt="Visualizacion de producto"> --> #2
+                            <img src="/img/vista_productos/vista_producto2.png" class="d-block w-100"
+                                alt="Visualizacion de producto">
                         </div>
                         <div class="carousel-item">
-                            <!-- <img src="/img/vista_productos/vista_producto3.png" class="d-block w-100"
-                                alt="Visualizacion de producto"> -->
+                            <img src="/img/vista_productos/vista_producto3.png" class="d-block w-100"
+                                alt="Visualizacion de producto">
                         </div>
                         <div class="carousel-item">
                             <img src="/img/vista_productos/vista_producto4.png" class="d-block w-100"
                                 alt="Visualizacion de producto">
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </section>
         </article>
 
+        <h2 class="text-center main__h1 neon" style="color:white; font-size: 2.5rem;">Planes</h2>
         <article class="main__article--productos">
             <section class="main__section--productos ">
                 <img src="/img/productos/barra-de-plata.png" alt="Producto plata">
@@ -160,7 +176,7 @@
         </article>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="container bg-dark">
             <div class="row">
                 <div class="col-md-6 col-12" id="redes-sociales">
