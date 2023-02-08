@@ -16,6 +16,17 @@ body {
     text-shadow: 0 0 5px #f2f2f2, 0 0 25px #ffee02;
 }
 
+.neon--morado {
+    text-shadow: 0 0 5px #f2f2f2, 0 0 25px #7004fd;
+}
+
+/* tecnologias */
+.main__img--logo {
+    width: 95%;
+    margin: 10px 2% 0 2%;
+}
+
+
 /* informacion de servicios */
 .main__article--ofrecemos {
     display: flex;
