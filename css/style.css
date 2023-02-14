@@ -80,11 +80,13 @@ p a:hover {
     cursor: pointer;
 }
 
-#flecha_redireccionar {
+#flecha_redireccionar,
+.flecha_redireccionar {
     position: relative;
 }
 
-#flecha_redireccionar .text-center {
+#flecha_redireccionar .text-center,
+.flecha_redireccionar .text-center {
     position: absolute;
     right: 49%;
     animation: animacion-flecha 0.7s infinite;
@@ -259,6 +261,33 @@ i:hover {
 
 footer .text-center {
     margin-top: 3%;
+}
+
+/* page products */
+.main_productos {
+    color: #fdfdfd;
+}
+
+.main_productos h2 {
+    text-transform: uppercase;
+}
+
+/* page integrantes */
+.main_section-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_integrantes {
+    width: 60%;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.accordion-item,
+.accordion-button {
+    color: white;
 }
 
 /* creacion de funciones, variables, etc */
